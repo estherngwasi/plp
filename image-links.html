@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header, nav, section, footer {
+            margin-bottom: 20px;
+        }
+
+        section {
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Image Links Page!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Greetings tech enthusiasts, pioneers, and digital explorers! Step into a realm where cutting-edge technology and boundless creativity converge to redefine the future. We are thrilled to welcome you to your ultimate destination for all things tech!</p>
+        <a href="https://example.com/technology" target="_blank">
+            <img src="C:\Users\admin\Documents\plp class\html\images\technology.jpg" alt="Technology" width="300" height="300">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Embark on a visual journey through the breathtaking wonders of nature</p>
+        <div class="gallery">
+            <a href="https://example.com/nature" target="_blank">
+                <img src="C:\Users\admin\Documents\plp class\html\images\nature.jpg" alt="Nature " width="200" height="200">
+            </a>
+            <a href="https://example.com/nature1" target="_blank">
+                <img src="C:\Users\admin\Documents\plp class\html\images\nature 1.jpg" alt="Nature 1" width="170" height="170">
+            </a>
+            <a href="https://example.com/nature2" target="_blank">
+                <img src="C:\Users\admin\Documents\plp class\html\images\nature 2.jpg" alt="Nature 2" width="250" height="280">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Embark on a culinary journey with our diverse and delectable menu</p>
+        <ul>
+            <li>
+                <a href="https://example.com/food" target="_blank">
+                    <img src="C:\Users\admin\Documents\plp class\html\images\food.jpg" alt="Food" width="150" height="150">
+                    Food Item 1
+                </a>
+            </li>
+            <li>
+                <a href="https://example.com/food2" target="_blank">
+                    <img src="C:\Users\admin\Documents\plp class\html\images\food 1.jpg" alt="Food 1" width="150" height="150">
+                    Food Item 2
+                </a>
+            </li>
+            <li>
+                <a href="https://example.com/food3" target="_blank">
+                    <img src="C:\Users\admin\Documents\plp class\html\images\food 2.jpg" alt="Food 2" width="150" height="150">
+                    Food Item 3
+                </a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
